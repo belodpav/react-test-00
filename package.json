@@ -1,0 +1,47 @@
+{
+  "name": "react-test-00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./client/config/webpack.config.dev.js --hot --inline",
+    "build": "webpack --config ./client/config/webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belodpav/react-test-00.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belodpav/react-test-00/issues"
+  },
+  "homepage": "https://github.com/belodpav/react-test-00#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react-app": "^3.1.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^5.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^0.4.0"
+  }
+}

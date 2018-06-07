@@ -1,0 +1,11 @@
+@import './common.css';
+
+.title {
+  color: var(--primary);
+  
+  &_size_ {
+    &l {
+      font-size: 60px;
+    }
+  }
+}
